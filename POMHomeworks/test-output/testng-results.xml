@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15484" started-at="2022-11-27T21:00:48Z" finished-at="2022-11-27T21:01:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15484" started-at="2022-11-27T21:00:48Z" finished-at="2022-11-27T21:01:03Z">
+      <class name="com.obsqura.selenium.POMHomeworks.SeleniumBlogspot">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="initializeBrowser" is-config="true" duration-ms="8859" started-at="2022-11-28T02:30:48Z" finished-at="2022-11-28T02:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyOperaRadioButtonSelected()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="verifyOperaRadioButtonSelected" duration-ms="61" started-at="2022-11-28T02:30:57Z" finished-at="2022-11-28T02:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperaRadioButtonSelected -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="browserClose" is-config="true" duration-ms="112" started-at="2022-11-28T02:30:57Z" finished-at="2022-11-28T02:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="initializeBrowser" is-config="true" duration-ms="6222" started-at="2022-11-28T02:30:57Z" finished-at="2022-11-28T02:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyRedCheckboxSelected()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="verifyRedCheckboxSelected" duration-ms="65" started-at="2022-11-28T02:31:03Z" finished-at="2022-11-28T02:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRedCheckboxSelected -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.selenium.POMHomeworks.SeleniumBlogspot@402a079c]" name="browserClose" is-config="true" duration-ms="130" started-at="2022-11-28T02:31:03Z" finished-at="2022-11-28T02:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.obsqura.selenium.POMHomeworks.SeleniumBlogspot -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
