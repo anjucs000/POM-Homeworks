@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.pageObjectModel_POM.SelectInputTest">
+      <class name="com.obsqura.selenium.pageObjectModel_POM.FormSubmitByParameterTest">
         <methods>
-          <include name="selectColorAndVerifySelectMultipleInputColor"/>
+          <include name="closeBrowser"/>
+          <include name="checkAndVerifyParameterWithTestNG"/>
           <include name="initialiseBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.pageObjectModel_POM.SelectInputTest -->
+      </class> <!-- com.obsqura.selenium.pageObjectModel_POM.FormSubmitByParameterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

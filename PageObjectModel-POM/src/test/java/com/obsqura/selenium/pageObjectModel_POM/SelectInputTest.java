@@ -11,5 +11,10 @@ public class SelectInputTest extends BasePOM {
 	obj = new SelectInputPage(driver);
 	obj.verifySelectMultipleInputColor();
 	}
+	@Test
+	public void selectColorAndVerifySelectSingleInputColor() {
+		obj = new SelectInputPage(driver);
+		obj.verifySelectSingleInputColor();
+	}
 	}
 

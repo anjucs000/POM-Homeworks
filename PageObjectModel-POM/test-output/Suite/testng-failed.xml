@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="lastNameValue" value="CS"/>
+  <parameter name="zipValue" value="695008"/>
+  <parameter name="firstNameValue" value="Anju"/>
+  <parameter name="stateValue" value="Kerala"/>
+  <parameter name="userNameValue" value="anjucs123"/>
+  <parameter name="cityValue" value="Trivandrum"/>
   <test name="Test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.pageObjectModel_POM.SimpleFormDemo">
+      <class name="com.obsqura.selenium.pageObjectModel_POM.FormSubmitTest">
         <methods>
-          <include name="enterMessageAndVerifySingleInputField"/>
+          <include name="checkAndVerifyParameterWithTestNG" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
           <include name="initialiseBrowser"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.pageObjectModel_POM.SimpleFormDemo -->
+      </class> <!-- com.obsqura.selenium.pageObjectModel_POM.FormSubmitTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

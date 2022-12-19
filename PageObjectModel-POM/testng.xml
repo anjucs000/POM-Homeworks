@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<parameter name="firstNameValue" value="Anju"></parameter>
+<parameter name="lastNameValue" value="CS"></parameter>
+<parameter name="userNameValue" value="anjucs123"></parameter>
+<parameter name="cityValue" value="Trivandrum"></parameter>
+<parameter name="stateValue" value="Kerala"></parameter>
+<parameter name="zipValue" value="695008"></parameter>
   <test name="Test">
-   <classes>
-<class name="com.obsqura.selenium.pageObjectModel_POM.SimpleFormDemo">
-<methods>
-<!-- <include name="multiSelectDropdown"/> -->
-</methods>
-</class>
-    </classes>
+  <classes>
+  <class name="com.obsqura.selenium.pageObjectModel_POM.FormSubmitByDataProviderTest">
+  </class>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
